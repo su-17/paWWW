@@ -1,0 +1,148 @@
+html {
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+body{
+    background: lightgray;
+}
+
+article{
+    color: rgb(25,25,25);
+    background-color: lightyellow;
+    width: 80%;
+    font-family: "Times New Roman", Georgia, serif;
+    border: 3px solid rgb(75,75,75);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 19px 21px #000000;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightyellow;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #000000;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightskyblue;
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #000000;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Times New Roman", Georgia, serif;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: red;
+    background-color: lightyellow;
+    margin:0 -15px 20px -15px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+caption{
+    font-size: 3em;
+    font-family: "Times New Roman", Georgia, serif;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: red;
+    background-color: lightyellow;
+    margin:0 -15px 20px -15px;
+}
+
+p{
+    color: rgb(25,25,25);
+    width: 80%;
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+p {
+    margin-top: 0px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+span.err {
+    color: red;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.correct {
+    border-style: dotted;
+    border-color: green;
+}
+
+.wrong {
+    border-style: dotted;
+    border-color: red;
+}
+
+form{
+    color: rgb(25,25,25);
+    background-color: lightyellow;
+    width: 80%;
+    font-family: "Times New Roman", Georgia, serif;
+    border: 3px solid rgb(75,75,75);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 19px 21px #000000;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    padding: 15px;
+}

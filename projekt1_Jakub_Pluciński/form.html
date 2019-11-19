@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<h1>Formularz</h1>
+<nav class="center">
+    <ul>
+        <li><a href="index.html"> Strona głowna</a> </li>
+        <li><a href="zawodnicy.html"> Tabela zawodników</a> </li>
+        <li><a href="wypadek.html"> Wypadek Niki Lauda</a> </li>
+        <li><a href="form.html"> Formularz</a> </li>
+    </ul>
+</nav>
+<body>
+<form action="#" method="get">
+    <fieldset name="dane_osobowe"><p><i>Proszę wypełnić ten formularz. Obowiązkowe pola oznaczono
+        znakiem </i><em>*</em>
+    </p>
+        <label>Imię <em>*</em></label><span class="err" id="e_imie"> </span><br> <input type="text"
+                                                                                        name="f_imie"/><br/>
+        <label>Nazwisko <em>*</em></label>
+        <input type="text" name="f_nazwisko"/> <br/>
+        <label>Płeć <em>*</em></label>
+        <input name="f_plec" value="f_k" checked type="radio" onclick="showElement('NazwiskoPanienskie')"/>kobieta
+        <input name="f_plec" value="f_m" type="radio" onclick="hideElement('NazwiskoPanienskie')" (/>mężczyzna <br/>
+        <label>Nazwisko panieńskie</label>
+        <span id="NazwiskoPanienskie"> <input type="text" name="f_nazwisko_p"> </span>
+
+        <label>e-mail</label>
+        <input type="text" name="f_email"/> <br/>
+        <label>kod pocztowy</label>
+        <input type="text" name="f_kod"/>
+        <br/> <label>Ulica</label>
+        <input type="text" name="f_ulica"/> <br/>
+        <label>Miasto</label>
+        <input type="text" name="f_miasto"/>
+        <br/> <label>Uwagi</label>
+        <textarea rows="5" cols="15" name="uwagi"></textarea> <br/> <input type="submit" name="submit"
+                                                                           value="Wyślij formularz"
+                                                                           onclick="return validate2(this.form);">
+    </fieldset>
+    <script type="text/javascript">
+        function showElement(e) {
+            document.getElementById(e).style.visibility = 'visible';
+        }
+
+        function hideElement(e) {
+            document.getElementById(e).style.visibility = 'hidden';
+        } </script>
+</form>
+
+</body>
+</html>
