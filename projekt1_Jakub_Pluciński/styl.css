@@ -96,7 +96,17 @@ p{
 }
 
 p {
-    margin-top: 0px;
+    color: rgb(25,25,25);
+    background-color: lightyellow;
+    width: 80%;
+    font-family: "Times New Roman", Georgia, serif;
+    border: 3px solid rgb(75,75,75);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 19px 21px #000000;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    padding: 15px;
 }
 
 fieldset {
